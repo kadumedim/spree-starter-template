@@ -276,7 +276,7 @@ GEM
       timeout
     net-smtp (0.5.0)
       net-protocol
-    nio4r (2.7.3)
+    nio4r (2.7.4)
     nokogiri (1.16.7-aarch64-linux)
       racc (~> 1.4)
     nokogiri (1.16.7-arm-linux)
@@ -292,11 +292,12 @@ GEM
     orm_adapter (0.5.0)
     paranoia (3.0.0)
       activerecord (>= 6, < 8.1)
+    pg (1.5.9)
     popper_js (1.16.1)
     psych (5.1.2)
       stringio
     public_suffix (6.0.1)
-    puma (6.4.2)
+    puma (6.4.3)
       nio4r (~> 2.0)
     raabro (1.4.0)
     racc (1.8.1)
@@ -568,6 +569,7 @@ DEPENDENCIES
   jbuilder
   mini_racer
   mission_control-jobs
+  pg
   puma (>= 5.0)
   rails (~> 7.1.4)
   sassc!
