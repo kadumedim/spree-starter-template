@@ -14,7 +14,6 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
-  config.admin_creation_enabled = true
 end
 
 # Configure Spree Dependencies
